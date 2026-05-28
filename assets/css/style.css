@@ -1,11 +1,12 @@
+@import url('fonts.css');
 html,body {margin: 0;padding: 0;}
 body {
     display: flex;
     min-height: 100vh;
     flex-wrap: wrap;
-    font-family: Roboto;
-    background: #a6cef6;
-    background: radial-gradient(circle, #a6cef6 70%, #63a7c3 100%);
+    font-family: body;
+    background: #c6e7fb;
+    /* background: radial-gradient(circle, #c6e7fb 70%, #44669a 100%); */
 }
 a {color: #0068e9;text-decoration: none;}
 a:visited {color: #bc14bc;}
@@ -15,12 +16,12 @@ a:hover {text-decoration: underline;}
     width: fit-content;
     min-width: 45vw;
     height: fit-content;
-    margin: auto;
+    margin: 0 auto;
     /* margin: 2em auto 2em; */
     padding: 1em 2em;
-    color: #0a1418;
-    background-color: #dcecfc;
-    box-shadow: #667987 0 0 10px;
+    color: #44669a;
+    background-color: #f0faff;
+    box-shadow: #44669a 0 0 3px;
 }
 @media (prefers-color-scheme: dark) {
     body {

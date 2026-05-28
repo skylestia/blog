@@ -1,0 +1,8 @@
+/* fonts */
+:root {
+    --font-body: 'body', sans-serif;
+}
+@font-face {
+    font-family: 'body';
+    src: url('https://github.com/theleagueof/goudy-bookletter-1911/raw/refs/heads/master/webfonts/goudy_bookletter_1911-webfont.ttf') format('opentype');
+}
