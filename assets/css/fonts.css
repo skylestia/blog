@@ -4,5 +4,5 @@
 }
 @font-face {
     font-family: 'body';
-    src: url('https://github.com/theleagueof/goudy-bookletter-1911/raw/refs/heads/master/webfonts/goudy_bookletter_1911-webfont.ttf') format('opentype');
+    src: url('../fonts/goudy.ttf') format('truetype');
 }

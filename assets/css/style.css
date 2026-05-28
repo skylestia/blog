@@ -15,7 +15,7 @@ a:hover {text-decoration: underline;}
     max-width: 50vw;
     width: fit-content;
     min-width: 45vw;
-    height: fit-content;
+    /* height: fit-content; */
     margin: 0 auto;
     /* margin: 2em auto 2em; */
     padding: 1em 2em;
