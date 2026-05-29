@@ -5,7 +5,12 @@ body {
     min-height: 100vh;
     flex-wrap: wrap;
     font-family: body;
-    background: #c6e7fb;
+    -webkit-text-stroke: 0.6px;
+    text-shadow: 0 0 0.3px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background: #e6f6ff;
     /* background: radial-gradient(circle, #c6e7fb 70%, #44669a 100%); */
 }
 a {color: #4947cf;text-decoration: none;}
@@ -19,9 +24,9 @@ a:hover {text-decoration: underline;}
     margin: 0 auto;
     /* margin: 2em auto 2em; */
     padding: 1em 2em;
-    color: #44669a;
-    background-color: #f0faff;
-    box-shadow: #44669a 0 0 3px;
+    color: #1d4483;
+    background-color: #f5fcff;
+    box-shadow: #abd5ee 0 0 3px;
 }
 @media (prefers-color-scheme: dark) {
     body {
