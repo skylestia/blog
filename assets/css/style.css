@@ -30,15 +30,15 @@ a:hover {text-decoration: underline;}
 }
 @media (prefers-color-scheme: dark) {
     body {
-        background: #e7e9eb;
-        background: radial-gradient(circle, #101e25 70%, #000405 100%);
+        background: #0a1921;
+        /* background: radial-gradient(circle, #101e25 70%, #000405 100%); */
     }
-    a {color: #85adde;}
-    a:visited {color: #d48fd4;}
+    a {color: #cbced1;}
+    a:visited {color: #af09d0;}
     .markdown-body {
-        color: #dcecfc;
+        color: #759cb1;
         background-color: #0a1418;
-        box-shadow: #000 0 0 10px;
+        box-shadow: #000 0 0 3px;
     }
 }
 @media only screen and (max-width: 1000px) {.markdown-body {min-width: 90vw;}}
