@@ -13,9 +13,9 @@ body {
     background: #e6f6ff;
     /* background: radial-gradient(circle, #c6e7fb 70%, #44669a 100%); */
 }
-a {color: #4947cf;text-decoration: none;}
+a {color: #005dd0;}
 a:visited {color: #bc14bc;}
-a:hover {text-decoration: underline;}
+a:hover {text-decoration: underline wavy;}
 .markdown-body {
     max-width: 50vw;
     width: fit-content;
@@ -24,22 +24,21 @@ a:hover {text-decoration: underline;}
     margin: 0 auto;
     /* margin: 2em auto 2em; */
     padding: 1em 2em;
-    color: #1d4483;
+    color: #3962a1;
     background-color: #f5fcff;
     box-shadow: #abd5ee 0 0 3px;
 }
+hr {border: none;border-top: solid #7abee4 0.1px;}
 @media (prefers-color-scheme: dark) {
-    body {
-        background: #0a1921;
-        /* background: radial-gradient(circle, #101e25 70%, #000405 100%); */
-    }
-    a {color: #cbced1;}
-    a:visited {color: #af09d0;}
+    body {background: #0a1921;}
+    a {color: #a7b6c4;}
+    a:visited {color: #9663e4;}
     .markdown-body {
-        color: #759cb1;
+        color: #60869a;
         background-color: #0a1418;
         box-shadow: #000 0 0 3px;
     }
+    hr {border: none;border-top: solid #22668b 0.1px;}
 }
 @media only screen and (max-width: 1000px) {.markdown-body {min-width: 90vw;}}
 @media only screen and (max-width: 600px) {.markdown-body {min-width: 85vw;}}
