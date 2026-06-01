@@ -10,11 +10,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    background: #e6f6ff;
+    background: #f5fcff;
     /* background: radial-gradient(circle, #c6e7fb 70%, #44669a 100%); */
 }
 a {color: #005dd0;}
-a:visited {color: #bc14bc;}
+/* a:visited {color: #bc14bc;} */
 a:hover {text-decoration: underline wavy;}
 .markdown-body {
     max-width: 50vw;
@@ -26,17 +26,17 @@ a:hover {text-decoration: underline wavy;}
     padding: 1em 2em;
     color: #3962a1;
     background-color: #f5fcff;
-    box-shadow: #abd5ee 0 0 3px;
+    box-shadow: #0f6ea614 0 0 2em 2em;
 }
 hr {border: none;border-top: solid #7abee4 0.1px;}
 @media (prefers-color-scheme: dark) {
-    body {background: #0a1921;}
+    body {background: #0a1418;}
     a {color: #a7b6c4;}
-    a:visited {color: #9663e4;}
+    /* a:visited {color: #9663e4;} */
     .markdown-body {
         color: #60869a;
         background-color: #0a1418;
-        box-shadow: #000 0 0 3px;
+        box-shadow: #0000001c 0 0 10px 2em;
     }
     hr {border: none;border-top: solid #22668b 0.1px;}
 }
